@@ -1,0 +1,21 @@
+<uniview>
+<name>OrbitBundle</name>
+
+<description>
+Orbital uncertainty visualization
+
+</description>
+
+<creator>
+Created by:
+Mark SubbaRao, Adler Planetarium,
+Mark Hammergren, Adler Planetarium
+</creator>
+
+<legalinfo></legalinfo>
+
+<version>0.1</version>
+
+<creationdate>12 April, 2015</creationdate>
+
+</uniview>

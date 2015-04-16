@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<clip version="2.6">
+	<object name="orbitcamera">
+		<gui name="Camera"></gui>
+		<property name="Rotation" type="rotation" hidden="0" constant="0">
+			<block start="0" size="1619">
+				<keyframe frame="0" interpolation="linear">0.513884 0.724809 0.084724 0.450995</keyframe>
+				<keyframe frame="800" interpolation="linear">0.699786 0.627453 -0.331761 0.080858</keyframe>
+				<keyframe frame="1120" interpolation="linear">0.701764 0.558771 -0.439581 -0.045505</keyframe>
+				<keyframe frame="1576" interpolation="monotone">0.705752 0.545056 -0.449394 -0.053601</keyframe>
+			</block>
+		</property>
+		<property name="Offset" type="offset" hidden="0" constant="0">
+			<block start="0" size="1619">
+				<keyframe frame="0" interpolation="linear">0.000000 0.000000 0.000000 1.000000</keyframe>
+				<keyframe frame="800" interpolation="linear">-0.820571 -0.024198 0.161943 0.547587</keyframe>
+				<keyframe frame="1120" interpolation="monotone">-0.719069 -0.008691 0.155191 0.677333</keyframe>
+				<keyframe frame="1576" interpolation="monotone">-0.719069 -0.008691 0.155191 0.677333</keyframe>
+			</block>
+		</property>
+		<property name="Distance" type="distance" hidden="0" constant="0">
+			<block start="0" size="1619">
+				<keyframe frame="0" interpolation="monotone">817432373.046875 km</keyframe>
+				<keyframe frame="800" interpolation="monotone">180751770.019531 km</keyframe>
+				<keyframe frame="1000" interpolation="monotone">239465625.000000 km</keyframe>
+				<keyframe frame="1120" interpolation="monotone">268526953.125000 km</keyframe>
+				<keyframe frame="1576" interpolation="monotone">268920361.328125 km</keyframe>
+			</block>
+		</property>
+		<property name="Target" type="target" hidden="1" constant="1">
+			<block start="0" size="1619">
+				<keyframe frame="0" interpolation="smooth">Sun2</keyframe>
+			</block>
+		</property>
+		<property name="Lock" type="string" hidden="1" constant="1">
+			<block start="0" size="1619">
+				<keyframe frame="0" interpolation="smooth"></keyframe>
+			</block>
+		</property>
+		<property name="Time" type="time" hidden="0" constant="0">
+			<block start="0" size="1619">
+				<keyframe frame="0" interpolation="linear">2015 4 15 18 27 48.768631</keyframe>
+				<keyframe frame="800" interpolation="linear">2015 4 15 18 27 48.768631</keyframe>
+				<keyframe frame="1120" interpolation="linear">2015 4 15 18 27 48.768631</keyframe>
+				<keyframe frame="1576" interpolation="linear">2015 4 15 18 27 48.768631</keyframe>
+			</block>
+		</property>
+		<property name="AnnualTime" type="bool" hidden="1" constant="1">
+			<block start="0" size="1619">
+				<keyframe frame="0" interpolation="smooth">0</keyframe>
+			</block>
+		</property>
+		<property name="AnnualTimeMark" type="time" hidden="1" constant="1">
+			<block start="0" size="1619">
+				<keyframe frame="0" interpolation="smooth">1969 12 31 23 59 59.816064</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="Commands">
+		<property name="ToProducer" type="string" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth"></keyframe>
+			</block>
+		</property>
+		<property name="ToTheater" type="string" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth"></keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="orbitBundleParams">
+		<property name="WideAlpha" type="alpha" hidden="0" constant="0">
+			<block start="0" size="801">
+				<keyframe frame="0" interpolation="smooth">0.000000</keyframe>
+				<keyframe frame="151" interpolation="smooth">0.000000</keyframe>
+				<keyframe frame="211" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="NarrowAlpha" type="alpha" hidden="0" constant="0">
+			<block start="0" size="1201">
+				<keyframe frame="0" interpolation="smooth">0.000000</keyframe>
+				<keyframe frame="600" interpolation="smooth">0.000000</keyframe>
+				<keyframe frame="700" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="orbitBundle">
+		<property name="Enabled" type="bool" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="step">1</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="MercuryOrbit">
+		<property name="OrbitWidth" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">3.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeLength" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeFade" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.500000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitColor" type="coloralpha" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">-0.166667 1.000000 1.000000 1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="VenusOrbit">
+		<property name="OrbitWidth" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">3.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeLength" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeFade" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.500000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitEnabled" type="bool" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="step">1</keyframe>
+			</block>
+		</property>
+		<property name="OrbitColor" type="coloralpha" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">-0.166667 1.000000 1.000000 1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="EarthOrbit">
+		<property name="OrbitWidth" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">3.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeLength" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeFade" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.500000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelative" type="bool" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="step">1</keyframe>
+			</block>
+		</property>
+		<property name="OrbitColor" type="coloralpha" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.416994 1.000000 1.000000 1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="JupiterOrbit">
+		<property name="OrbitWidth" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">4.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeLength" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeFade" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.500000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitColor" type="coloralpha" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">-0.166667 1.000000 1.000000 1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="SaturnOrbit">
+		<property name="OrbitWidth" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">4.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeLength" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeFade" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.450000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitColor" type="coloralpha" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">-0.166667 1.000000 1.000000 1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="UranusOrbit">
+		<property name="OrbitWidth" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">4.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeLength" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeFade" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.500000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitColor" type="coloralpha" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">-0.166667 1.000000 1.000000 1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="NeptuneOrbit">
+		<property name="OrbitWidth" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">4.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeLength" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeFade" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.500000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitColor" type="coloralpha" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">-0.166667 1.000000 1.000000 1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="Pluto">
+		<property name="Enabled" type="bool" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="step">0</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="SunGlare">
+		<property name="Enabled" type="bool" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="step">0</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="Sun2">
+		<property name="Enabled" type="bool" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="step">0</keyframe>
+			</block>
+		</property>
+	</object>
+	<object name="MarsOrbit">
+		<property name="OrbitWidth" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">3.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeLength" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">1.000000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitRelativeFade" type="float" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">0.500000</keyframe>
+			</block>
+		</property>
+		<property name="OrbitColor" type="coloralpha" hidden="0" constant="0">
+			<block start="0" size="1">
+				<keyframe frame="0" interpolation="smooth">-0.166667 1.000000 1.000000 1.000000</keyframe>
+			</block>
+		</property>
+	</object>
+</clip>
