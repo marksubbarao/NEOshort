@@ -10,7 +10,7 @@ The Near Earth Object planetarium short
 
 #NEOs
 ###LANDING
-####1	Fly into Meteor Crater
+######1	Fly into Meteor Crater
 About 50,000 years ago a large space rock crashed into the Earth leaving behind this giant scar in the land nearly a mile across.
 ####2	Merge to panorama photo
 Today Meteor Crater, which lies about 40 miles east of Flagstaff Arizona, is a major tourist attraction.
