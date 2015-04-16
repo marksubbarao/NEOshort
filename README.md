@@ -3,7 +3,7 @@ The Near Earth Object planetarium short
 
 ##Resources
 <ul>
-  <li><a href=http://nbviewer.ipython.org/github/marksubbarao/NEOshort/blob/master/NEO%20Orbit%20Bundles.ipynb>iPython Notebook</a></li>
+  <li><a href=http://nbviewer.ipython.org/github/marksubbarao/NEOshort/blob/master/NEO%20Orbit%20Bundles.ipynb>iPython Notebook containing datamanipulation tasks</a></li>
 </ul>
 
 
