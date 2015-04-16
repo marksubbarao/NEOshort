@@ -6,9 +6,8 @@ The Near Earth Object planetarium short
   <li><a href=http://nbviewer.ipython.org/github/marksubbarao/NEOshort/blob/master/NEO%20Orbit%20Bundles.ipynb>iPython Notebook</a></li>
 </ul>
 
-#Script:
 
-#NEOs
+#NEOs Script
 ###LANDING
 ######1	Fly into Meteor Crater
 About 50,000 years ago a large space rock crashed into the Earth leaving behind this giant scar in the land nearly a mile across.
